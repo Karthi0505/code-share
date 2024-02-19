@@ -1,0 +1,133 @@
+/* SIMPLE SELECTOR ########################################### */
+/* Element selector */
+/* h1 {
+    color: red;
+}
+
+p{
+    color: blue
+} */
+
+/* Class Selector */
+.container {
+    border: 4px solid red;
+}
+/* li.red {
+    font-size: 30px;
+    background-color: aqua;
+} */
+
+/* Id Selector */
+/* #page-heading {
+    text-decoration: underline;
+    color: blue;
+    background-color: yellow;
+} */
+/* -------------------------------------------------------------------- */
+
+
+/* COMBINATOR SELECTOR ########################################### */
+/* descendant selector (space) */
+/* .container p {
+    color: violet
+} */
+
+
+
+/* child selector (>) */
+/* body > p {
+    color: green;
+    font-weight: bold;
+} */
+
+/* adjacent sibling selector (+) */
+/* .first-para + p {
+    background-color: yellow;
+}
+p + div {
+    background-color: grey;
+} */
+
+/* general sibling selector (~) */
+/* .first-para ~ p {
+    background-color: yellow;
+}
+p ~ div {
+    background-color: grey;
+} */
+
+
+/* PSUDO CLASS SELECTOR */
+/* .container {
+    background-color: yellow;
+}
+.container:hover {
+    background-color: blueviolet;
+} */
+
+/* input:focus {
+    background-color: yellow;
+    border: 6px solid red;
+}
+button:focus {
+    background-color: blue;
+}
+a:focus {
+    color: red;
+} */
+/* a:visited{
+    color: rgb(186, 7, 46)
+} */
+
+/* ul li:first-child {
+    background-color: rgb(164, 98, 11);
+}
+
+ul li:last-child {
+    background-color: rgb(4, 138, 200);
+}
+
+ul li:nth-child(5),
+ul li:nth-child(2) {
+    background-color: rgb(130, 253, 8);
+} */
+/* 
+.red:not(p) {
+    background-color: red;
+}
+
+:root {
+    border: 12px solid green
+} */
+
+
+/* PSUDO ELEMENT SELECTOR */
+/* p:first-letter {
+    font-size: 50px;
+    font-weight: bold;
+}
+p.first-line:first-line {
+    background-color: grey;
+}
+::selection {
+    background-color: yellowgreen;
+}
+
+li:before {
+    content: '%--'
+}
+li:after {
+    content: ' -->'
+}
+
+p:before{
+    content: '';
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    border-radius: 50%;
+} */
+
+
+/* Attribute Selector */
