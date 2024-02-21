@@ -1,0 +1,7 @@
+Git Commands
+
+git add --all
+git commit -m "commitMessage"
+git push
+
+
